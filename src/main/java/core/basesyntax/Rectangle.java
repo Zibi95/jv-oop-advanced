@@ -16,7 +16,7 @@ public class Rectangle extends Figure {
                 + this.calculateArea()
                 + "sq. units, side one: "
                 + this.sideOne
-                + "units, side two: "
+                + " units, side two: "
                 + this.sideTwo
                 + " units, color: "
                 + this.color);

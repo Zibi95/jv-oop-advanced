@@ -16,14 +16,14 @@ public class RightTriangle extends Figure {
                 + this.calculateArea()
                 + "sq. units, first leg: "
                 + this.firstLeg
-                + "units, second leg: "
-                + this.firstLeg
+                + " units, second leg: "
+                + this.secondLeg
                 + " units, color: "
                 + this.color);
     }
 
     @Override
     public int calculateArea() {
-        return 1 / 2 * this.firstLeg * this.secondLeg;
+        return (this.firstLeg * this.secondLeg) / 2;
     }
 }

@@ -18,9 +18,9 @@ public class IsoscelesTrapezoid extends Figure {
                 + this.calculateArea()
                 + "sq. units, base a: "
                 + this.baseA
-                + "units, base b: "
+                + " units, base b: "
                 + this.baseB
-                + "units, height: "
+                + " units, height: "
                 + this.height
                 + " units, color: "
                 + this.color);

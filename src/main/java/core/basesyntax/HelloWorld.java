@@ -4,12 +4,13 @@ package core.basesyntax;
  * Feel free to remove this class and create your own.
  */
 public class HelloWorld {
-    public static void main(String[] args) {
-        FigureSupplier figureSupplier = new FigureSupplier(100);
-        int numOfFigures = 6;
+    private static final int FIGURES_COUNT = 6;
 
-        for (int i = 0; i < numOfFigures; i++) {
-            int half = numOfFigures / 2;
+    public static void main(String[] args) {
+        FigureSupplier figureSupplier = new FigureSupplier();
+
+        for (int i = 0; i < FIGURES_COUNT; i++) {
+            int half = FIGURES_COUNT / 2;
             Figure figure = i < half
                     ?
                     figureSupplier.getRandomFigure()
