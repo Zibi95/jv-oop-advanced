@@ -22,8 +22,7 @@ public class RightTriangle extends Figure {
                 + this.color);
     }
 
-    @Override
-    public int calculateArea() {
-        return (this.firstLeg * this.secondLeg) / 2;
+    public double calculateArea() {
+        return (this.firstLeg * this.secondLeg) / 2.0;
     }
 }

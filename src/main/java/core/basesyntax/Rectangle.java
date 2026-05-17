@@ -23,7 +23,7 @@ public class Rectangle extends Figure {
     }
 
     @Override
-    public int calculateArea() {
+    public double calculateArea() {
         return this.sideOne * this.sideTwo;
     }
 }
